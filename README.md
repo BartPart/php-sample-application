@@ -1,4 +1,5 @@
 # PHP 7.1 sample application
+# Test By BartPart - Please Support the Official Release!
 
 Sample PHP applications that uses:
 * Dependency Injection
