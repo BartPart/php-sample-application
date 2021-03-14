@@ -1,8 +1,8 @@
 <?php
 
-$lastJoinedUsers = (require "dic/users.php")->getLastJoined();
+$lastJoinedUsers = (require "/usr/local/apache2/htdocs/php-sample-application/dic/users.php")->getLastJoined();
 
-switch (require "dic/negotiated_format.php") {
+switch (require "/usr/local/apache2/htdocs/php-sample-application/dic/negotiated_format.php") {
     case "text/html":
         (new Views\Layout(
             "Twitter - Newcomers", new Views\Users\Listing($lastJoinedUsers), true
