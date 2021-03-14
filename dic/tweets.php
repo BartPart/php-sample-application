@@ -1,5 +1,5 @@
 <?php
 
 return new Service\TweetsService(
-    require "config/db-connection.php"
+    require "/usr/local/apache2/htdocs/php-sample-application/db-connection.php"
 );
